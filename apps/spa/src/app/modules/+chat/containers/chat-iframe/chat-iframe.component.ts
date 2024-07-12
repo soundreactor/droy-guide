@@ -40,10 +40,10 @@ export class ChatIframeComponent implements OnInit {
   isConfigEnabled = environment.isConfigEnabled;
   isImageContentEnabled = environment.isImageContentEnabled;
   tips = [
-    'Hello! 👋 How can you help me?',
-    'What’s the weather like in Warsaw?',
-    'What is the exchange rate for USD?',
-    'Show me the stats for Pikachu (Pokémon)?',
+    'Hi! I really need help with my Deck',
+    'Can I please get a quote for my project?',
+    'Do you also do assets for my social media?',
+    'I need a banner for an event, is this something you can help me with?',
   ];
   initialMessages: ChatMessage[] = [];
 
